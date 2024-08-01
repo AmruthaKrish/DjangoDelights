@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Menu</title>
+</head>
+<body>
+    <h2>Menu</h2>
+    <ul>
+        {% for item in menu_items %}
+            <li>{{ item.name }} - ${{ item.price }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
