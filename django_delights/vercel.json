@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "django_delights/wsgi.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "django_delights/wsgi.py" }
+    ]
+  }
+  
