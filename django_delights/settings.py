@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-vu-w=+fn1108r*^ss68hm3y_vlrsq$83-_al+wp9ph$5$1hdcd"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['djangodelights.vercel.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
